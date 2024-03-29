@@ -14,7 +14,7 @@ def test_post_create_group():
         accessToken = test_post_get_access_token.test_getToken()
         headers = {"Authorization": f"Bearer {accessToken}"}
         response = requests.post(api_url, json=todo, headers=headers)
-        print(response.text)
+    
 
         assert int(response.status_code) == 200
         print("The API post of creating group is passed")
@@ -23,9 +23,12 @@ def test_post_create_group():
         logging.error(e)
         print("The request is failed")
 
-    finally:
-        groupName = data.data_post_groupname["name"]
-    return groupName
+    # finally:
+    #     response = json.loads(response.text)
+    #     new_course_id = response["name"]
+    
+    # return new_course_id
 
-test_post_create_group()
+
+test_post_create_group() 
 

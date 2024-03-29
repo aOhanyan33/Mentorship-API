@@ -31,3 +31,26 @@
 2024-03-21 01:50:59,513: - ERROR:
 2024-03-21 01:51:15,745: - ERROR:
 2024-03-21 02:01:25,005: - ERROR:local variable 'response' referenced before assignment
+2024-03-21 13:10:11,677: - ERROR:local variable 'response' referenced before assignment
+2024-03-29 01:27:24,224: - ERROR:local variable 'response' referenced before assignment
+2024-03-29 01:28:31,099: - ERROR:local variable 'response' referenced before assignment
+2024-03-29 01:55:27,381: - ERROR:Expecting value: line 1 column 1 (char 0)
+2024-03-29 02:07:20,537: - ERROR:local variable 'response' referenced before assignment
+2024-03-29 02:10:40,935: - ERROR:local variable 'response' referenced before assignment
+2024-03-29 02:12:00,870: - ERROR:local variable 'response' referenced before assignment
+2024-03-29 02:25:02,186: - ERROR:local variable 'response' referenced before assignment
+2024-03-29 02:42:25,077: - ERROR:name 'i' is not defined
+2024-03-29 02:46:58,675: - ERROR:string indices must be integers
+2024-03-29 02:51:22,853: - ERROR:string indices must be integers
+2024-03-29 03:05:33,556: - ERROR:module 'data' has no attribute 'data_put_groupname'
+2024-03-29 03:05:51,007: - ERROR:module 'data' has no attribute 'data_put_groupname'
+2024-03-29 03:11:21,193: - ERROR:local variable 'response' referenced before assignment
+2024-03-29 03:16:12,209: - ERROR:local variable 'response' referenced before assignment
+2024-03-29 11:37:02,042: - ERROR:'NoneType' object is not iterable
+2024-03-29 11:41:05,730: - ERROR:local variable 'response1' referenced before assignment
+2024-03-29 11:41:06,052: - ERROR:'NoneType' object is not iterable
+2024-03-29 11:46:12,199: - ERROR:local variable 'response' referenced before assignment
+2024-03-29 11:56:10,696: - ERROR:name 'groupIdList' is not defined
+2024-03-29 11:59:06,277: - ERROR:name 'groupIdList' is not defined
+2024-03-29 12:07:32,090: - ERROR:name 'groupIdList' is not defined
+2024-03-29 12:20:06,703: - ERROR:string indices must be integers

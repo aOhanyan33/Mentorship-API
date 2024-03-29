@@ -21,7 +21,7 @@ def test_update_createdGroup():
             headers = {"Authorization": f"Bearer {accessToken}"}
             todo = data.data_put
             response = requests.put(api_url, headers = headers,json=todo)
-            print (response.text)  
+        print (response.text)  
               
         assert int(response.status_code) == 200
         print("The API put is passed")

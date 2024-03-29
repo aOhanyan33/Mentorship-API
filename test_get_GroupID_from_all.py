@@ -14,12 +14,14 @@ def test_get_groupID():
         accessToken = test_post_get_access_token.test_getToken()
         headers = {"Authorization": f"Bearer {accessToken}"}
         response =  requests.get(api_url, headers = headers)
+        #print (response.json())
        
         mylist = []
         for i in response.json():
-            if i['name'] == data.data_put['name']: #i['name'] == data.data_post_groupname['name']:
+            if i['name'] == data.data_post_groupname['name']: #i['name'] == data.data_post_groupname['name']:
                 mylist.append(i['groupId'])
-        return mylist
+                #print (i)
+        return(mylist)
                 
                        
         assert int(response.status_code) == 200

@@ -9,7 +9,7 @@ data_post_credentials = {
 
 data_post_groupname = { 
 
-  "name": "Some Group", 
+  "name": "Some Group 28", 
 
   "emailAddress": "example@mail.com" 
 
@@ -17,7 +17,7 @@ data_post_groupname = {
 
 data_put = { 
 
-  "name": "New 77777", 
+  "name": "New 8888", 
 
   "emailAddress": "New@mail.com" 
 
