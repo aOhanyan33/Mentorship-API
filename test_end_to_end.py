@@ -6,7 +6,7 @@ import json
 
 logging.basicConfig(filename="logFileApi.log", encoding='utf-8', format='%(asctime)s: - %(levelname)s:%(message)s', level=logging.ERROR)
 
-     #-- Get token-- #888888888
+     #-- Get token-- #
 def test_getToken():
 
     try:
